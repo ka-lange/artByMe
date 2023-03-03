@@ -1,0 +1,37 @@
+body{
+    font-family: 'Golos Text', sans-serif;
+}
+.artLogo{
+    display: flex;
+    justify-content: center;
+}
+.nav{
+    visibility: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.navOpen{
+    visibility: visible;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.navLink{
+    cursor: pointer;
+    font-size: 30px;
+    padding: 10px;
+    color: black
+}
+.navLink:hover{
+    transition: font-size 0.5s ease 0;
+    font-size: 40px;
+}
+
+a:link { text-decoration: none;}
+a:visited { text-decoration: none;}
+a:hover {text-decoration: none;}
+a:active { text-decoration: none;}
