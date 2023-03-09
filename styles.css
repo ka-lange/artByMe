@@ -2,6 +2,7 @@ body{
     font-family: 'Golos Text', sans-serif;
     background-color: black;
     color: white;
+    
 }
 .heading{
     color: rgb(156, 35, 35);
@@ -11,12 +12,15 @@ body{
     display: flex;
     justify-content: center;
 }
+.artLogo img{
+    width: 300px;
+}
 .tabs{
     display: flex;
     justify-content: center;
 }
 .tabs a{
-    margin: 20px;
+    padding: 0 20px;
     cursor:pointer;
 }
 .artpiece{
